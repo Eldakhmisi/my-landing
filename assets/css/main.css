@@ -1853,6 +1853,50 @@ section,
 }
 
 /*--------------------------------------------------------------
+# Social Buttons Styling
+--------------------------------------------------------------*/
+.social-buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.social-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 18px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  color: #ffffff;
+}
+
+.linkedin-btn {
+  background-color: #0077b5;
+}
+
+.linkedin-btn:hover {
+  background-color: #005885;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 119, 181, 0.3);
+}
+
+.github-btn {
+  background-color: #333333;
+}
+
+.github-btn:hover {
+  background-color: #24292e;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(51, 51, 51, 0.3);
+}
+
+/*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
 .starter-section {
